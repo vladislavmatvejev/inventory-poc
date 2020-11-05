@@ -1,20 +1,50 @@
 {
-	"packages": [
-		{
-			"id": 1,
-			"order_id": 1
-		}
-	],
-	"invoices": [
-		{
-			"id": 1,
-			"order_id": 1
-		}
-	],
-	"vendors": [
-		{
-			"id": 1,
-			"name": "Our warehouse"
-		}
-	]
+	"inventory": [{
+		"packages": [
+			{
+				"id": 1,
+				"order_id": 1
+			}
+		],
+		"invoices": [
+			{
+				"id": 1,
+				"order_id": 1
+			}
+		],
+		"vendors": [
+			{
+				"id": 1,
+				"name": "Our warehouse"
+			}
+		],
+		"products": [
+			{
+				"id": 1,
+				"price": 4,
+				"cost": 1
+			}
+		],
+		"customers": [
+			{
+				"id": 1,
+				"name": "John Smith",
+				"address": "Mustamae 3a",
+				"email": "john.smith@pipedrive.com"
+			}
+		],
+		"salesOrders": [
+			{
+				"id": 1,
+				"status": "created"
+			}
+		],
+		"purchaseOrders": [
+			{
+				"id": 1,
+				"order_id": 1,
+				"product_id": 1
+			}
+		]
+	}]
 }
