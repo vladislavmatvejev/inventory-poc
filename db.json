@@ -1,0 +1,20 @@
+{
+	"packages": [
+		{
+			"id": 1,
+			"order_id": 1
+		}
+	],
+	"invoices": [
+		{
+			"id": 1,
+			"order_id": 1
+		}
+	],
+	"vendors": [
+		{
+			"id": 1,
+			"name": "Our warehouse"
+		}
+	]
+}
